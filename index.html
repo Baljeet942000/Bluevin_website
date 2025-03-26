@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluevin Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a ><img src="new_logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Product.html">PRODUCT</a></li>
+                <li><a href="career.html">CAREERS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Welcome To Bluevin</h1>
+        <p>Bluevin is your trusted partner in all things AI. As a premier AI consulting company, we provide bespoke AI solutions tailored to your business ethos, requirements, and vision. Our team of experienced professionals is your trusted partner in steering you through your digital transformation journey, pivoting business challenges into new opportunities. With Bluevin, success is not just a destination, it is a journey we step on with you.</p>
+        <a href="Contact.html" class="hero-btn">Visit Us To Know More</a>
+    </div>
+</section>
+
+<!---------Why choose us------------------------>
+<section class="WhyWe">
+    <h1>Why Choose Us</h1>
+
+    <div class="row">
+
+        <div class="WhyWe-column">
+            <h3><i class="fas fa-lightbulb"></i> Innovation Meets Expertise</h3>
+            <p>At Bluevin, we don't just follow trends-we create them. Our team blends deep AI expertise with real-world problem-solving to craft intelligent solutions that drive business success. </p>
+        </div>
+
+        <div class="WhyWe-column">
+            <h3><i class="fas fa-bolt"></i> Speed & Scalability</h3>
+            <p>Whether you're a startup or an enterprise, our AI models scale with your needs. We build high-performance, future-ready solutions that grow alongside your business.</p>
+        </div>
+
+        <div class="WhyWe-column">
+            <h3><i class="fas fa-shield-alt"></i> Trust & Transparency</h3>
+            <p>We prioritize ethical AI development no black-box solutions, no hidden algorithms. Our AI is built with fairness, security, and compliance at its core.</p>
+        </div>
+
+        
+
+    </div>
+    
+</section>
+
+<!------------How We Work------------------------>
+
+<section class="HowWeWork">
+
+    <h1>How We Work</h1>
+
+    <div class="row">
+
+        <div class="HowWeWork-column">
+            <h3><i class="fas fa-brain"></i> Understanding & Strategy</h3>
+            <p>We begin by understanding your business needs and challenges. Through research and strategic planning, we design AI-driven solutions tailored to your goals.</p>
+        </div>
+
+        <div class="HowWeWork-column">
+            <h3><i class="fas fa-cogs"></i> Implementation</h3>
+            <p>We build, test, and integrate high-performance AI solutions into your existing workflow, ensuring seamless adoption and efficiency.</p>
+        </div>
+
+        <div class="HowWeWork-column">
+            <h3><i class="fas fa-chart-line"></i> Optimization & Support</h3>
+            <p>Our work doesn't stop at deployment. We provide continuous monitoring, updates, and improvements to keep your AI solution performing at its best.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!---------Javascript for Toggle Menu------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+</script>  
+
+</body>
+</html>

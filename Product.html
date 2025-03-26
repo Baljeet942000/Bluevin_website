@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluevin Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a><img src="new_logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Product.html">PRODUCT</a></li>
+                <li><a href="career.html">CAREERS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Product</h1>
+</section>
+
+<!---------Product---------------------------->
+<section class="product">
+    <div class="product-content">
+        <h1>Bluevin App Creator</h1>
+        <p>Bluevin App Creator empowers anyone to build powerful, NLP-driven apps in less than a day without writing a single line of code. With its intuitive drag-and-drop interface and WYSIWYG (What You See Is What You Get) design philosophy, you can create fully functional apps effortlessly, no coding or technical setup required. The platform automatically handles databases, HTTP servers, and hosting, while built-in multi-user management and integrated conversational interfaces let users interact with your app using natural language. Designed for seamless cross-device compatibility, your app works flawlessly as a Progressive Web App (PWA), browser app, or even within chat windows—"design once, run everywhere." Whether you're a business, educator, or innovator, Bluevin turns your ideas into reality faster, smarter, and codeless.</p>
+    </div>
+    
+    <!----- YouTube Videos Section ----->
+    <div class="video-gallery">
+        
+        <div class="video-container">
+            <!-- Video 1 -->
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/59R9GlCRvRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Video 2 -->
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ssEps4qOXP8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Video 3 -->
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aWg8r45Z6OU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Video 4 -->
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/66-IrzNmJG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Video 5 -->
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/F2is6HHWJso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------Javascript for Toggle Menu------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>  
+
+</body>
+</html>

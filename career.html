@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluevin Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a><img src="new_logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Product.html">PRODUCT</a></li>
+                <li><a href="career.html">CAREERS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Career</h1>
+</section>
+
+<!---------------career------------>
+<section class="career">
+    <div class="row">
+        <div class="career-col">
+            <h1>Join Our Team</h1>
+            <p>At Bluevin we believe in pushing the boundaries of innovation and excellence. Our mission is to deliver cutting-edge solutions that transform industries and improve lives. As a rapidly growing company, we are always on the lookout for passionate and talented individuals who are eager to make a significant impact in the AI landscape. If you're interested in joining us, we encourage you to submit your updated CV on bluevininc@gmail.com. We review all applications carefully and will reach out if your qualifications align with our needs.</p>
+        </div>
+        <div class="career-col">
+            <img src="High-Performance-Teams.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!---------Javascript for Toggle Menu------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

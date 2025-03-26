@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluevin Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a><img src="new_logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Product.html">PRODUCT</a></li>
+                <li><a href="career.html">CAREERS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+
+<!---------Contact Us---------------------------->
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Bluevin</h5>
+                    <p>10116 Imperial ave, Cupertino CA 95014, United States</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9828696655</h5>
+                    <p>Monday to Friday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>bluevininc@gmail.com</h5>
+                    <p>Feel free to reach out to us at this email</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+             <img src="Cupertino-City-Sign.jpg">
+        </div>
+
+
+        
+    </div>
+</section>
+
+
+
+
+
+
+<!---------Javascript for Toggle Menu------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+</script>  
+
+</body>
+</html>

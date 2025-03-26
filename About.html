@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluevin Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a><img src="new_logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Product.html">PRODUCT</a></li>
+                <li><a href="career.html">CAREERS</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<!---------------about us------------>
+
+<section class="about-us">
+
+   <div class="row">
+        <div class="about-col">
+            <img src="blue_logo.png" alt="Company-logo">
+        </div>
+        <div class="about-col">
+            <p>Founded in 2013, Bluevin is an AI consulting company dedicated to transforming businesses through cutting-edge artificial intelligence solutions. With a strong focus on innovation and problem-solving, we help organizations harness the power of AI to optimize operations, enhance decision-making, and drive sustainable growth. At Bluevin we believe in not just following trends but creating them. Our team of AI experts collaborates with clients across industries, offering tailored solutions that integrate machine learning, data analytics, and automation. Whether it's predictive analytics, AI-driven automation, or custom AI models, we deliver scalable and impactful technology to stay ahead in an ever-evolving digital landscape.</p>
+            <a href="http://www.youtube.com/@bluevininc8243" target="_blank" class="hero-btn red-btn">VISIT OUR YOUTUBE CHANNEL</a>
+        </div>
+   </div>
+
+</section>
+
+
+
+
+
+
+<!---------Javascript for Toggle Menu------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+</script>  
+
+</body>
+</html>
