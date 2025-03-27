@@ -451,11 +451,11 @@ h3{
 @media only screen and (max-width: 900px) and (orientation: landscape) {
     /* Header adjustments */
     .header {
-        min-height: 80vh; /* Increase height for landscape */
+        min-height: 100vh; /* Increase height for landscape */
     }
 
     .sub-header{
-        min-height: 70vh;
+        min-height: 80vh;
     }
     
     /* Navigation adjustments */
