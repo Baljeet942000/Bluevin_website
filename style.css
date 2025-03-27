@@ -446,3 +446,78 @@ h3{
     }
 }
 
+
+/* Landscape-specific adjustments */
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    /* Header adjustments */
+    .header {
+        min-height: 150vh; /* Increase height for landscape */
+    }
+    
+    /* Navigation adjustments */
+    .nav-links {
+        width: 250px; /* Wider menu for landscape */
+    }
+    
+    /* Text box adjustments */
+    .text-box {
+        width: 95%;
+    }
+    
+    .text-box h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    
+    .text-box p {
+        font-size: 16px;
+        margin: 5px 0 20px;
+    }
+    
+    /* Content sections */
+    .WhyWe, .HowWeWork, .about-us, .contact-us, .career {
+        width: 90%;
+        padding-top: 50px;
+    }
+    
+    /* Column layouts */
+    .row {
+        flex-direction: column;
+    }
+    
+    .WhyWe-column, .HowWeWork-column, .about-col, .contact-col, .career-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    
+    /* Video gallery adjustments */
+    .video-container {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Hide nav image in landscape if needed */
+    nav img {
+        width: 100px;
+    }
+}
+
+/* Additional landscape adjustments for very small heights */
+@media only screen and (max-width: 900px) and (orientation: landscape) and (max-height: 500px) {
+    .header {
+        min-height: 200vh;
+    }
+    
+    .text-box h1 {
+        font-size: 24px;
+    }
+    
+    .text-box p {
+        font-size: 14px;
+    }
+    
+    .hero-btn {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+}
+
