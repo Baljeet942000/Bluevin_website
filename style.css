@@ -456,7 +456,8 @@ h3{
 
 
 /* Landscape-specific adjustments */
-@media only screen and (max-width: 900px) and (orientation: landscape) {
+@media only screen and (max-width: 900px) and (orientation: landscape),
+only screen and (max-height: 500px) and (orientation: landscape){
     /* Header adjustments */
     .header {
         min-height: 170vh; /* Increase height for landscape */
