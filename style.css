@@ -170,6 +170,13 @@ nav .fa{
     .contact-us .row{
         margin-top: 50px;
     }
+    
+    a.red-btn {
+        display: block; /* Change from inline-block */
+        margin: 0 auto; /* This centers the entire button */
+        width: fit-content; /* Makes button only as wide as its content */
+        
+    }
 }
 
 
@@ -503,6 +510,14 @@ h3{
     /* Hide nav image in landscape if needed */
     nav img {
         width: 100px;
+    }
+
+    
+    a.red-btn {
+        display: block; /* Change from inline-block */
+        margin: 0 auto; /* This centers the entire button */
+        width: fit-content; /* Makes button only as wide as its content */
+       
     }
 }
 
