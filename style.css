@@ -451,11 +451,11 @@ h3{
 @media only screen and (max-width: 900px) and (orientation: landscape) {
     /* Header adjustments */
     .header {
-        min-height: 100vh; /* Increase height for landscape */
+        min-height: 80vh; /* Increase height for landscape */
     }
 
     .sub-header{
-        min-height: 100vh;
+        min-height: 70vh;
     }
     
     /* Navigation adjustments */
@@ -505,23 +505,5 @@ h3{
     }
 }
 
-/* Additional landscape adjustments for very small heights */
-@media only screen and (max-width: 900px) and (orientation: landscape) and (max-height: 500px) {
-    .header {
-        min-height: 200vh;
-    }
-    
-    .text-box h1 {
-        font-size: 24px;
-    }
-    
-    .text-box p {
-        font-size: 14px;
-    }
-    
-    .hero-btn {
-        padding: 8px 20px;
-        font-size: 12px;
-    }
-}
+
 
