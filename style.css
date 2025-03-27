@@ -363,6 +363,7 @@ h3{
 .career-col h1 {
     padding-top: 0;
     margin-top: 0; /* Remove default margin for h1 */
+    text-align: center;
 }
 
 .career-col p {
